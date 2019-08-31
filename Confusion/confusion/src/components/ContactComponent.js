@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Button, Form, FormGroup, Label, Input, Col, FormFeedback } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-class Contact extends Component {
+class Contact extends React.Component {
     constructor(props) {
         super(props);
 
@@ -172,7 +172,7 @@ class Contact extends Component {
                                         onChange={this.handleInputChange} />
                                     <FormFeedback>{errors.email}</FormFeedback>
                                 </Col>
-                                </FormGroup>
+                                </FormGroup>cd
                                 </Form>
                             </div>
                             </div>
